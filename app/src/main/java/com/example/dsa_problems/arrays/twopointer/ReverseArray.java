@@ -1,4 +1,4 @@
-package com.example.dsa_problems.arrays.slidingwindow;
+package com.example.dsa_problems.arrays.twopointer;
 
 public class ReverseArray {
 
