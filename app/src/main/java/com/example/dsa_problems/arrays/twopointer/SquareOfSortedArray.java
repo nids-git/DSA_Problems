@@ -1,5 +1,7 @@
 package com.example.dsa_problems.arrays.twopointer;
 
+import static com.example.dsa_problems.arrays.DisplayArray.displayArray;
+
 /** Problem - Leetcode - 977
    Given an integer array nums sorted in non-decreasing order,
    return an array of the squares of each number sorted in non-decreasing order.
@@ -23,12 +25,6 @@ public class SquareOfSortedArray {
             }
         }
         return nums;
-    }
-
-    public static void displayArray(int[] nums){
-       for(int i=0;i<nums.length;i++){
-           System.out.print(nums[i]+", ");
-       }
     }
 
     public static void main(String[] args) {

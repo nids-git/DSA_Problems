@@ -1,5 +1,7 @@
 package com.example.dsa_problems.arrays.twopointer;
 
+import static com.example.dsa_problems.arrays.DisplayArray.displayArray;
+
 /** Problem - LeetCode -905
  Given an integer array nums, move all the even integers
  at the beginning of the array followed by all the odd integers.
@@ -27,11 +29,7 @@ public class SortArrayByParity {
         return nums;
     }
 
-    public static void displayArray(int[] arr){
-        for(int i=0;i<arr.length;i++){
-            System.out.print(arr[i]+", ");
-        }
-    }
+
 
     public static void main(String[] args) {
         int[] nums = {3,1,2,4};

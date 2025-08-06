@@ -1,5 +1,7 @@
 package com.example.dsa_problems.arrays.twopointer;
 
+import static com.example.dsa_problems.arrays.DisplayArray.displayArray;
+
 public class ReverseArray {
 
     public static void reverseArray(int[] arr){
@@ -16,11 +18,7 @@ public class ReverseArray {
         displayArray(arr);
     }
 
-    public static void displayArray(int[] arr){
-        for(int i=0;i<arr.length; i++){
-            System.out.print(arr[i]+", ");
-        }
-    }
+
 
     public static void main(String[] args) {
         int[] arr = {34,78,90,12,34};
