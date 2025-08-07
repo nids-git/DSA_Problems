@@ -18,8 +18,6 @@ public class ReverseArray {
         displayArray(arr);
     }
 
-
-
     public static void main(String[] args) {
         int[] arr = {34,78,90,12,34};
         reverseArray(arr);

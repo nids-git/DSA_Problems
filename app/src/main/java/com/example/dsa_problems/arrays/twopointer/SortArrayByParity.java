@@ -28,9 +28,6 @@ public class SortArrayByParity {
         }
         return nums;
     }
-
-
-
     public static void main(String[] args) {
         int[] nums = {3,1,2,4};
         int[] result = sortArrayByParity(nums);
