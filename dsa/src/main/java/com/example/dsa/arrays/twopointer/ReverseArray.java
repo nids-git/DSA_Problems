@@ -1,4 +1,4 @@
-package com.example.dsa_problems.arrays.twopointer;
+package com.example.dsa.arrays.twopointer;
 
 // Two Pointer Approach
 public class ReverseArray {
