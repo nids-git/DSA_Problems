@@ -1,7 +1,5 @@
 package com.example.dsa.LRUCache;
 
-import org.w3c.dom.Node;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -39,6 +37,7 @@ public class LRUCache {
             insertAtStart(node);
             return;
         }
+
 
         if(map.size() == capacity){
             DoublyNode node = tail.prev;
